@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import './TitleType.css'
 
-function TitleType({type, helpText, link}) {
+function TitleType({ type, helpText, link }) {
 
     return (
-        <div className="container">
-            <Link to={link}>{type}</Link>
-            <span>{type}</span>
+        <div>
+            <Link className="container" to={link}>
+                <span>{type}</span>
+            </Link>
             <span>{helpText}</span>
         </div>
     )
