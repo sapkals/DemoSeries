@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### QnA
+
+•	How did you decide on the technical and architectural choices used as part of your solution?
+ Ans - created project using reactjs (cra) template for listing all the templates.
+
+•	Are there any improvements you could make to your submission?
+Ans - There should be lot of improvements can be done such as,
+
+ 1. pagination and sorting
+ 2. displaying title with images and redirecting user to content
+ 3. responsive ui design
+
+•	What would you do differently if you were allocated more time?
+Ans - 
+  1.would have added sorting and find functionality for titles
+  2. a wild card path for redirecting invalid urls
+  3. responsive designs
+  4. on click of particular title showing it in another component with all its details
