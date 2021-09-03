@@ -4,11 +4,11 @@ import './TitleType.css'
 function TitleType({ type, helpText, link }) {
 
     return (
-            <div id="myDiv">
+            <div id="myDiv" className="main">
                 <Link className="container" to={link}>
                     <span>{type}</span>
                 </Link>
-                <span>{helpText}</span>
+                <span className='samu'>{helpText}</span>
             </div>
     )
 }
