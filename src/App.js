@@ -19,16 +19,16 @@ function App() {
   return (
     <div className="App" id="App">
       <Demo />
-      <div className="title">Popular Titles</div>
+      
      
       <Router>
         <div>
           <Switch>
             <Route path="/movies">
-            <Titles data={movies}/>
+            <Titles data={movies} name="Movies"/>
             </Route>
             <Route path="/series">
-             <Titles data={series}/>
+             <Titles data={series} name="Series"/>
             </Route>
             <Route path="/">
               <Home />

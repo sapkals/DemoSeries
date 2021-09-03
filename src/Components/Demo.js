@@ -6,7 +6,7 @@ function Demo() {
             <label >DEMO</label>
             <span className='align'>
                 <button >Log in</button>
-                <button >Start your free trial</button>
+                <button className="alignLeft">Start your free trial</button>
             </span>
         </div>
     )

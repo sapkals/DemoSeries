@@ -1,9 +1,4 @@
 
-.title {
-  background-color:grey;
-  color: white;
-  padding:20px;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
