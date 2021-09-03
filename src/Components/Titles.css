@@ -1,0 +1,6 @@
+.titles-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: flex-start;
+}

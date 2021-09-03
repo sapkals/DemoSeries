@@ -1,0 +1,9 @@
+.title-main {
+    border:black solid 1px;
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: space-around;
+    margin:15px;
+}
